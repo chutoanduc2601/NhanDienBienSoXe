@@ -13,7 +13,7 @@ from easyocr import Reader
 import cv2
 
 # loading images and resizing
-img = cv2.imread('image5.jpg')
+img = cv2.imread('images/image6.jpg')
 img = cv2.resize(img, (800, 600))
 # load font
 fontpath = "./arial.ttf"
